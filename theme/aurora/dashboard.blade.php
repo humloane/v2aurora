@@ -9,7 +9,7 @@
     <meta name="description" content="{{ $description }}" />
     
     @empty($logo)
-    <link rel="icon" href="/theme/{{$theme}}/favicon.svg" />
+    <link rel="icon" href="/theme/yuantilogo.jpg" />
     @endempty
     <link rel="icon" href="{{ $logo }}" />
   
